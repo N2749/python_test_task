@@ -11,7 +11,7 @@ class Text(models.Model):
     # i.e PK (3)
     # return value 1.1.1
     # core-idea: there is need for the function that counts the number of this child of the parent,
-    # and then combine it with the number of parents
+    # and then combine it with the numbers of parents, then separate with separated characters
     def get_nesting_number():
         
         return
